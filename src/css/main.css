@@ -1,0 +1,24 @@
+.title{
+    font-size: 16px;
+}
+.mainimage{
+    background-image: url('../images/ProfilePhoto.jpg');
+    background-position: center;
+    border-radius: 50%;
+    width: 80%;
+    height: 200px;
+}
+.username{
+    font-size: 20px;
+    font-weight: 500;
+}
+.spinner-border{
+    margin-top: 250px;
+}
+@media only screen and (max-width:600px){
+    .mainimage{
+        border-radius: 50%;
+        width: 50%;
+        height: 230px;
+    }  
+}
